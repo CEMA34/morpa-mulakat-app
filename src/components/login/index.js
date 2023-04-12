@@ -23,7 +23,7 @@ export default function Login() {
       <div className={styles.container__inner}>
         <img
           className={styles.container__mainLogo}
-          src="morpalogo.jpg"
+          src={process.env.PUBLIC_URL + "/morpalogo.jpg"}
           alt="Morpa Kampüs logo"
         />
         <h1 className={styles.container__mainTitle}>

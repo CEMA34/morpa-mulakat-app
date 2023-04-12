@@ -1,6 +1,6 @@
 import Login from "./components/login";
 import Abacus from "./components/abacus";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 
 export default function App() {
   return (
