@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/morpa-mulakat-app/static/css/main.e4e3da5e.css",
-    "main.js": "/morpa-mulakat-app/static/js/main.593755bd.js",
+    "main.js": "/morpa-mulakat-app/static/js/main.1d1a711b.js",
     "static/media/bg-hero-desktop.png": "/morpa-mulakat-app/static/media/bg-hero-desktop.892e6c85fbaf15c550d3.png",
     "index.html": "/morpa-mulakat-app/index.html",
     "main.e4e3da5e.css.map": "/morpa-mulakat-app/static/css/main.e4e3da5e.css.map",
-    "main.593755bd.js.map": "/morpa-mulakat-app/static/js/main.593755bd.js.map"
+    "main.1d1a711b.js.map": "/morpa-mulakat-app/static/js/main.1d1a711b.js.map"
   },
   "entrypoints": [
     "static/css/main.e4e3da5e.css",
-    "static/js/main.593755bd.js"
+    "static/js/main.1d1a711b.js"
   ]
 }
