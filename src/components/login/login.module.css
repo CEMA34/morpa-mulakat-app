@@ -1,0 +1,102 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  border-radius: 10px;
+  border: 3px solid #c1c3d7;
+}
+
+.container__inner {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.container__mainLogo {
+  width: 50px;
+}
+
+.container__mainTitle {
+  color: #9c346b;
+  font-weight: 700;
+  font-size: 24px;
+  margin-bottom: 1em;
+}
+
+.container__nameInputDiv,
+.container__surnameInputDiv {
+  display: flex;
+  flex-direction: column;
+  font-weight: 700;
+  color: #000000;
+  margin: 1em 0;
+}
+
+.container__surnameInputDiv__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nameInputDiv__nameInput,
+.surnameInputDiv__surnameInput {
+  font-size: 14px;
+  font-weight: 400;
+  border: none;
+  background-color: #f6f8fc;
+  border-bottom: 2px solid #e0e1eb;
+  width: 100%;
+  padding-bottom: 0.5em;
+  transition: 0.5s;
+  outline: none;
+  cursor: pointer;
+}
+
+.nameInputDiv__nameInput::placeholder,
+.surnameInputDiv__surnameInput::placeholder {
+  opacity: 0.4;
+}
+
+.nameInputDiv__nameLabel,
+.surnameInputDiv__surnameLabel {
+  padding-bottom: 1em;
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+.surnameInputDiv__surnameLabel {
+  padding-top: 1em;
+}
+
+.container__signInBtn {
+  width: 400px;
+  height: 60px;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  background-color: #9c346b;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  font-size: 18px;
+  margin-top: 2em;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.container__signInBtn:hover {
+  background-color: white;
+  border: 1px solid black;
+  color: black;
+  opacity: 1;
+}
+
+.nameInputDiv__nameInput:focus,
+.surnameInputDiv__surnameInput:focus {
+  border-bottom: 2px solid #9c346b;
+}
